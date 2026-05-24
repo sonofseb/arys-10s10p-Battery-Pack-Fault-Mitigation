@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sltp_graph version="1.1" packageUris="http://schema.mathworks.com/mf0/sltp_mm/R2024b_202402211119">
+  <sltp.mm.core.Context type="sltp.mm.core.Context" uuid="00949e7c-ae1c-4786-aacd-57d58c3d000e">
+    <priorityDirection>HighNumberLast</priorityDirection>
+    <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="92c66b96-8691-4b69-83a5-bbae1a4a7662"/>
+    <editorState type="sltp.mm.core.EditorState" uuid="3211cca9-f028-4244-b46b-032ff64cd00c">
+      <isSynchronized>true</isSynchronized>
+      <panelState type="sltp.mm.core.EditorPanelState" uuid="f69418c9-e71f-4a6f-8df0-a9f13ee80eb5"/>
+    </editorState>
+    <rootTask type="sltp.mm.core.Task" uuid="eba77df8-eb2d-4595-abd9-305bd225fdea">
+      <context type="sltp.mm.core.Context" uuid="00949e7c-ae1c-4786-aacd-57d58c3d000e"/>
+      <explicit>false</explicit>
+      <name>Default</name>
+      <priority>-2147483648</priority>
+      <subgraph type="sltp.mm.core.Graph" uuid="a8d652e7-475a-45a6-94be-3f247b0b51b0">
+        <tasks type="sltp.mm.core.Task" uuid="0052cccf-f753-4dc3-95d7-8d3cbd84f16a">
+          <baseTask>true</baseTask>
+          <context type="sltp.mm.core.Context" uuid="00949e7c-ae1c-4786-aacd-57d58c3d000e"/>
+          <explicit>false</explicit>
+          <id>1</id>
+          <isTimed>true</isTimed>
+          <name>Cont</name>
+          <priority>40</priority>
+          <rates type="sltp.mm.core.Rate" uuid="e5137559-6abd-4dd1-a9ac-23d0003b141f">
+            <annotation>Cont</annotation>
+            <color>255</color>
+            <hasBlocks>true</hasBlocks>
+            <identifier>Continuous00</identifier>
+            <rateIndex>0</rateIndex>
+            <rateSpec type="sltp.mm.core.RateSpec">
+              <period>0.0</period>
+            </rateSpec>
+            <sti>0</sti>
+          </rates>
+        </tasks>
+      </subgraph>
+    </rootTask>
+  </sltp.mm.core.Context>
+</sltp_graph>

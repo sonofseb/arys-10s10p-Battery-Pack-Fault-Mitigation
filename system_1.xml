@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[0, -8, 1366, 720]</P>
+  <Block BlockType="SubSystem" Name="10P 1S" SID="2">
+    <PortCounts lconn="1" rconn="2"/>
+    <P Name="Position">[80, 23, 165, 132]</P>
+    <P Name="ZOrder">5724</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_2"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="10P 1S1" SID="16">
+    <PortCounts lconn="1" rconn="2"/>
+    <P Name="Position">[540, 183, 625, 292]</P>
+    <P Name="ZOrder">5734</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">top</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_16"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="10P 1S2" SID="30">
+    <PortCounts lconn="1" rconn="2"/>
+    <P Name="Position">[195, 23, 280, 132]</P>
+    <P Name="ZOrder">5726</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_30"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="10P 1S3" SID="44">
+    <PortCounts lconn="1" rconn="2"/>
+    <P Name="Position">[80, 183, 165, 292]</P>
+    <P Name="ZOrder">5735</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">top</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_44"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="10P 1S4" SID="58">
+    <PortCounts lconn="1" rconn="2"/>
+    <P Name="Position">[195, 183, 280, 292]</P>
+    <P Name="ZOrder">5736</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">top</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_58"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="10P 1S5" SID="72">
+    <PortCounts lconn="1" rconn="2"/>
+    <P Name="Position">[310, 183, 395, 292]</P>
+    <P Name="ZOrder">5737</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">top</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_72"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="10P 1S6" SID="86">
+    <PortCounts lconn="1" rconn="2"/>
+    <P Name="Position">[425, 183, 510, 292]</P>
+    <P Name="ZOrder">5738</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">top</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_86"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="10P 1S7" SID="100">
+    <PortCounts lconn="1" rconn="2"/>
+    <P Name="Position">[540, 23, 625, 132]</P>
+    <P Name="ZOrder">5731</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_100"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="10P 1S8" SID="114">
+    <PortCounts lconn="1" rconn="2"/>
+    <P Name="Position">[310, 23, 395, 132]</P>
+    <P Name="ZOrder">5732</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_114"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="10P 1S9" SID="128">
+    <PortCounts lconn="1" rconn="2"/>
+    <P Name="Position">[425, 23, 510, 132]</P>
+    <P Name="ZOrder">5733</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_128"/>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Negative" SID="142">
+    <P Name="Position">[695, 98, 725, 112]</P>
+    <P Name="ZOrder">5743</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">top</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Temp 1 " SID="143">
+    <P Name="Position">[695, 168, 725, 182]</P>
+    <P Name="ZOrder">5744</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">top</P>
+    <P Name="Port">2</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Positive " SID="144">
+    <P Name="Position">[695, 233, 725, 247]</P>
+    <P Name="ZOrder">5750</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">top</P>
+    <P Name="Port">3</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="Temp 2" SID="164">
+    <P Name="Position">[695, 278, 725, 292]</P>
+    <P Name="ZOrder">5751</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">top</P>
+    <P Name="Port">4</P>
+    <P Name="Side">Left</P>
+  </Block>
+  <Line LineType="Connection">
+    <P Name="ZOrder">1</P>
+    <P Name="Src">44#lconn:1</P>
+    <P Name="Dst">58#rconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">2</P>
+    <P Name="Src">2#rconn:2</P>
+    <P Name="Dst">30#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">3</P>
+    <P Name="Src">114#rconn:2</P>
+    <P Name="Dst">128#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">4</P>
+    <P Name="Src">16#rconn:2</P>
+    <P Name="Dst">86#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">5</P>
+    <P Name="Src">58#lconn:1</P>
+    <P Name="Dst">72#rconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">6</P>
+    <P Name="Src">114#rconn:1</P>
+    <P Name="Points">[8, 0; 0, 108; 230, 0; 0, 17]</P>
+    <P Name="Dst">143#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">7</P>
+    <P Name="Src">72#lconn:1</P>
+    <P Name="Dst">86#rconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">8</P>
+    <P Name="Src">144#rconn:1</P>
+    <P Name="Dst">16#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">9</P>
+    <P Name="Src">30#rconn:2</P>
+    <P Name="Dst">114#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">10</P>
+    <P Name="Src">128#rconn:2</P>
+    <P Name="Dst">100#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">11</P>
+    <P Name="Src">142#rconn:1</P>
+    <P Name="Dst">100#rconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">12</P>
+    <P Name="Src">2#lconn:1</P>
+    <P Name="Dst">44#rconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">13</P>
+    <P Name="Src">72#rconn:1</P>
+    <P Name="Points">[-7, 0; 0, 106; 372, 0; 0, -31]</P>
+    <P Name="Dst">164#rconn:1</P>
+  </Line>
+</System>
